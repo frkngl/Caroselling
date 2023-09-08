@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*HEADER*/
+header{
+    font-family: 'Inter', sans-serif;
+}
+header .container #linkler ul{
+    list-style-type: none;
+    margin-right: 150px;
+}
+header .container #linkler ul li a{
+    margin: 1rem;
+}
+
+
+
+/*SECTION ACIKLAMA*/
+#acıklama{
+    font-family: 'Inter', sans-serif;
+}
+#acıklama .text-1 h1{
+    font-size: 6rem;
+}
+#acıklama .text-1 h1 .yanbosluk{
+    margin-left: 30px;
+}
+#acıklama .text-1 h1 .ustbosluk{
+    margin-top: 25px;
+}
+#acıklama .text-2{
+    position: absolute;
+    margin:-300px 0px 0px 900px;
+}
+#acıklama .text-3{
+    margin:50px 0px 0px -9px;
+    width: 120px;
+    height: 2px;
+    transform: rotate(90deg);
+}
+#acıklama .text-4{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+#acıklama .text-4 i{
+    margin-left: 30px;
+}
+#acıklama .cizgi{
+    width: 400px;
+    float: right;
+    height: 2px;
+    margin-top: 215px;
+    z-index: 0;
+}
+#acıklama .text-5{
+    z-index: 1;
+    margin-top: 200px;
+}
+#acıklama .text-6{
+    margin-top: -35px;
+    margin-left: 120px;
+}
+#acıklama .cizgi-1{
+    width: 100%;
+    height: 2px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+
+
+/*SECTION ACIKLAMA-2*/
+#acıklama-2 .karisik{
+    margin-top: 200px;
+}
+#acıklama-2 .karisik img{
+    float: right;
+    z-index: 0;
+}
+#acıklama-2 .karisik .text-7{
+    position: absolute;
+    z-index: 1;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#acıklama-2 .karisik .text-8{
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 200px;
+    z-index: 1;
+}
+
+/*SECTION ACIKLAMA-3*/
+#acıklama-3{
+    margin-top: 800px;
+}
+
+#acıklama-3 .cizgi-2{
+    width: 500px;
+    float: right;
+    height: 2px;
+    z-index: 0;
+}
+#acıklama-3 .text-9{
+    margin-top: -10px;
+}
+#acıklama-3 .text-10{
+    margin-top: -50px;
+    margin-left: 180px;
+}
+#acıklama-3 .text-10 #kutucuklar{
+    display: flex;
+    flex-wrap: wrap;
+}
+#acıklama-3 .text-10 #kutucuklar .box{
+    display: flex;
+    padding: 2rem;
+}
+#acıklama-3 .text-10 #kutucuklar .box p{
+    margin-left: 50px;
+}
+#acıklama-3 .cizgi-3{
+    width: 100%;
+    height: 2px;
+}
+
+
+
+/*SECTION ACIKLAMA-4*/
+#acıklama-4 .col-9 div .box-2 .cizgi-3{
+    width: 100%;
+    height: 2px;
+}
+
+
+
+/*SECTION ACIKLAMA-5*/
+#acıklama-5 .cizgi-2{
+    width: 400px;
+    float: right;
+    height: 2px;
+    z-index: 0;
+}
+#acıklama-5 .text-10{
+    margin-top: -50px;
+    margin-left: 210px;
+}
+#acıklama-5 .cizgi-3{
+    width: 100%;
+    height: 2px;
+}
+#acıklama-5 .karisik{
+    margin-top: 200px;
+}
+#acıklama-5 .karisik img{
+    float: left;
+    z-index: 0;
+}
+#acıklama-5 .karisik .text-7{
+    position: absolute;
+    z-index: 1;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+#acıklama-5 .karisik .text-8{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 180px;
+    z-index: 1;
+}
+
+
+/*SECTION ACIKLAMA-6*/
+#acıklama-6{
+    margin-top: 800px;
+}
+#acıklama-6 .cizgi-2{
+    width: 400px;
+    float: right;
+    height: 2px;
+    z-index: 0;
+}
+#acıklama-6 .text-10{
+    margin-top: -50px;
+    margin-left: 260px;
+}
+
+
+/*SECTION ACIKLAMA-7*/
+#acıklama-7{
+    margin-top: 200px;
+}
+#acıklama-7 .cizgi-3{
+    width: 100%;
+    height: 2px;
+}
+#acıklama-7 div .col-10{
+    flex-wrap: wrap;
+}
+#acıklama-7 div .col-10 .box{
+    padding-right: 5rem;
+
+}
+
+/*SECTION ACIKLAMA-8*/
+#acıklama-8{
+    margin-top:200px;
+}
+#acıklama-8 .cizgi-3{
+    width: 100%;
+    height: 2px;
+}
+#acıklama-8 #kutucuklar{
+    flex-wrap: wrap;
+}
+#acıklama-8 #kutucuklar .box{
+    padding: 1rem;
+}
+
+/*FOOTER*/
+footer{
+    margin-top: 200px;
+    margin-bottom: 750px;
+}
+footer .cizgi-3{
+    width: 100%;
+    height: 2px;
+}
+footer .contact div ul li{
+    list-style-type: none;
+}
+footer .contact div ul li a{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+footer .contact-2{
+    width: 80%;
+    height: 500px;
+    margin-top: 50px;
+    float: right;
+}
+footer .contact-2 .box{
+    width: 40%;
+    height: 50px;
+    margin: 3rem;
+}
+footer .contact-2 .box .cizgi{
+    width:100%;
+    height: 3px;
+}
+footer .cizgi-3{
+    width: 100%;
+    height: 2px;
+}
+.container .cizgi-3{
+    width: 100%;
+    height: 3px;
+}
+
